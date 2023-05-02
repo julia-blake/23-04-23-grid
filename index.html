@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,regular,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- <div class="grid">
+        <div class="grid-item logo">LOGO</div>
+        <div class="grid-item menu">MENU</div>
+        <div class="grid-item header">HEADER</div>
+        <div class="grid-item main">MAIN</div>
+        <div class="grid-item footer">FOOTER</div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+    </div> -->
+    <div class="background">
+      <section class="main__wrapper">
+      <!-- HEADER -->
+      <header class="nav container">
+        <picture class="nav__logo">
+          <img src="./img/Logo.png" alt="logo" />
+        </picture>
+        <menu class="menu">
+          <li class="menu__item">
+            <a class="menu__item-link" href="#">EXPLORE</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__item-link" href="#">MENTORS</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__item-link" href="#">BLOG</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__item-link" href="#">COMMUNITY</a>
+          </li>
+        </menu>
+      </header>
+      <!-- MAIN -->
+      <main>
+        <section class="hero">
+          <h2 class="hero__subtitle">FEATURED CLASS</h2>
+          <h3 class="hero__title">The role of User Interface Designer</h3>
+          <div class="hero__join-class">
+            <svg
+              width="19"
+              height="16"
+              viewBox="0 0 19 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.5 8.57008L16.5 8.57008"
+                stroke="#1A1A1A"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M11.25 1.83298L17.9675 8.31746L11.25 14.8019"
+                stroke="#1A1A1A"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <h2 class="hero__join-class-title">Join The Class</h2>
+          </div>
+          <div class="hero__designer">
+            <img
+              class="hero__designer-image"
+              src="./img/wonam.png"
+              alt="Karen William"/>
+            <p class="hero__designer-name">Karen William</p>
+            <p class="hero__designer-position">Senior Designer</p>
+          </div>
+          <div class="hero__about">
+            <h3 class="hero__about-title">ABOUT</h3>
+            <p class="hero__about-text">
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure dolor in
+            </p>
+          </div>
+          <div class="hero__grey"></div>
+          <div class="hero__equalizer">
+            <img
+              class="hero__equalizer-img"
+              src="./img/man.png"
+              alt="Tom Hope"
+            />
+            <div class="hero__equalizer-track">
+              <div class="hero__equalizer-box">
+                <img
+                  class="hero__equalizer-audio"
+                  src="./img/Audio.png"
+                  alt="equalizer"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="hero__trailer">
+            <img src="./img/man2.png" alt="man" />
+            <h3 class="hero__trailer-title">Watch Trailer</h3>
+            <p class="hero__trailer-text">2 mins</p>
+          </div>
+          <div class="hero__testimonial">
+            <div>
+              <h4 class="hero__testimonial-title">Testimonial</h4>
+              <p class="hero__testimonial-text">Tom Hope</p>
+              <div class="hero__testimonial-subtext"><p>20:45</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        </section>
+      </main>
+        <!-- SECOND SECTION -->
+        <section class="courses container">
+          <h2 class="courses-title">Popular Courses
+            this week</h2>
+           <div class="courses-wrapper">
+             <div class="courses-wrapper-glasses">
+               <img class="courses-img" src="./img/glasses.png" alt="glasses">
+              <h3 class="courses-item-subtitle">PHOTOGRAPHY</h3>
+               <h4 class="courses-item-title">Create an attractive product photography</h4>
+               <p class="courses-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+             </div>
+             <div class="courses-wrapper-phone">
+               <img class="courses-img" src="./img/phone.png" alt="phone">
+               <h4 class="courses-item-subtitle">DESIGN</h4>
+               <h3 class="courses-item-title">User Interface Design</h3>
+               <p class="courses-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+             </div>
+             <div class="courses-wrapper-coffee">
+               <img class="courses-img" src="./img/coffee.png" alt="text">
+               <h3 class="courses-item-subtitle">COFFEE</h3>
+              <h4 class="courses-item-title">Create an attractive product photography</h4>
+              <p class="courses-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            </div>
+            <div class="courses-wrapper-laptop">
+              <img class="courses-img" src="./img/laptop.png" alt="text">
+              <h3 class="courses-item-subtitle">BUSINESS</h3>
+              <h4 class="courses-item-title">Productivity Class: How to manage projects</h4>
+              <p class="courses-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+            </div>
+          </div>
+        </section>
+    </div>
+  </body>
+</html>
